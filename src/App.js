@@ -10,9 +10,7 @@ function App(){
 
 <div>
   <h1>Home Page</h1>
-  <nav>
-    
-  </nav>
+ 
 </div>
 
 
