@@ -11,7 +11,7 @@ function App(){
 <div>
   <h1>Home Page</h1>
   <nav>
-    <Link to="/aboutus"> About Us</Link>
+    
   </nav>
 </div>
 
