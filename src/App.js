@@ -1,5 +1,5 @@
 import { BrowserRouter, Route } from 'react-router-dom';
-import about from "./aboutus";
+import about from './aboutus';
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
