@@ -1,4 +1,4 @@
-import { BrowserRouter, Router, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import aboutus from "./aboutus";
 import './App.css';
 import { Link } from 'react-router-dom';
@@ -11,10 +11,11 @@ function App(){
   
 
 <h1>Home Page</h1>
-<Route path='/aboutus'>
+<BrowserRouter>
+<Route path="/aboutus">
   <aboutus />
 </Route>
-
+</BrowserRouter>
 </div>
 
   );
