@@ -10,11 +10,11 @@ function App(){
   
 
 <h1>Home Page</h1>
-/*<Routes>
+{/*<Routes>
   <Route path='/' element={<App />}></Route>
 <Route path="/aboutus" element={<About />}>
 </Route>
-</Routes>*/
+  </Routes>*/}
 </div>
 
   );
