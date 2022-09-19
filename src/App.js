@@ -10,7 +10,7 @@ function App(){
   
 
 <h1>Home Page</h1>
-about();
+<about> </about>
 </div>
 
   );
