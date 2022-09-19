@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { render } from 'react-dom';
+import Register from './components/registerform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>
@@ -27,5 +29,6 @@ render(
   </BrowserRouter>,
   rootElement
 );
+root.render(<Register/>);
 
 reportWebVitals();
