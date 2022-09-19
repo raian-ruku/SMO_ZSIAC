@@ -10,15 +10,13 @@ function App(){
   
 
 <h1>Home Page</h1>
-<BrowserRouter>
-<Routes>
+
 
 
 <Route path="/aboutus">
   <about />
 </Route>
-</Routes>
-</BrowserRouter>
+
 </div>
 
   );
