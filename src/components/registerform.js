@@ -1,7 +1,7 @@
 function Register() {
 
 <form>
-    <input placeholder="Enter Full Name"></input>
+    <input type="text" placeholder="Enter Full Name"></input>
 </form>
 
 }
