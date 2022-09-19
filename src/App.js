@@ -12,7 +12,6 @@ function App(){
   
 
 <h1>Home Page</h1>
-<Register></Register>
 {/*<Routes>
   <Route path='/' element={<App />}></Route>
 <Route path="/aboutus" element={<About />}>
