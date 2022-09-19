@@ -12,9 +12,7 @@ function App(){
 <h1>Home Page</h1>
 <Routes>
   <Route path='/' element={<App />}></Route>
-<Route path="/aboutus" >
-  <about />
-</Route>
+<Route path="/aboutus" element={<about />}></Route>
 </Routes>
 </div>
 
