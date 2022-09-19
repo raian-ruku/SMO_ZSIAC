@@ -3,6 +3,7 @@ import About from './components/aboutus';
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
+import NavBar from './components/navbar';
 
 function App(){
   return(
@@ -10,6 +11,7 @@ function App(){
   
 
 <h1>Home Page</h1>
+<NavBar></NavBar>
 {/*<Routes>
   <Route path='/' element={<App />}></Route>
 <Route path="/aboutus" element={<About />}>

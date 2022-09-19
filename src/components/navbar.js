@@ -1,7 +1,16 @@
-function Navbar(){
+import { Nav } from "react-bootstrap"
 
-<nav>
-    
-</nav>
+
+function NavBar(){
+
+<Nav>
+    <Nav.Item>
+        <Nav.Link href="./app">
+Active
+        </Nav.Link>
+    </Nav.Item>
+</Nav>
 
 }
+
+export default NavBar;
