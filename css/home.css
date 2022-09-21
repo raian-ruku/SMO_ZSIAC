@@ -2,13 +2,16 @@ body{
     background-color: white;
     background-image: url(/images/edited7-1.jpg);
     background-repeat: no-repeat;
+    
     }
     
     button{
         background-color: transparent;
         border-color: transparent;
+        color: white;
     }
     button:hover{
-        background-color: white;
-        opacity: 20%;
+        background-color: rgba(255, 255, 255, .5);
+        color: white;
     }
+    
