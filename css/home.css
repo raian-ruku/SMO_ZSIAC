@@ -8,3 +8,7 @@ body{
         background-color: transparent;
         border-color: transparent;
     }
+    button:hover{
+        background-color: white;
+        opacity: 20%;
+    }
