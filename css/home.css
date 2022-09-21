@@ -1,8 +1,10 @@
 body{
-background-color: white;
-background-image: url(/images/edited7-1.jpg);
-}
-
-button{
-    background-color: transparent;
-}
+    background-color: white;
+    background-image: url(/images/edited7-1.jpg);
+    background-repeat: no-repeat;
+    }
+    
+    button{
+        background-color: transparent;
+        border-color: transparent;
+    }
