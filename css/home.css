@@ -9,6 +9,7 @@ body{
         background-color: transparent;
         border-color: transparent;
         color: white;
+        font-size: 15px;
     }
     button:hover{
         background-color: rgba(255, 255, 255, .5);
@@ -17,7 +18,8 @@ body{
     }
 
     .linkbar{
-        margin-left: 500px;
-        margin-top: 200px;
+        margin-left: 800px;
+        margin-top: 100px;
+        size: 50px;
     }
     
