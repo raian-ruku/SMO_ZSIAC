@@ -5,7 +5,7 @@ body{
     background-size:cover;
     }
     
-    button{
+    .linkbar button{
         background-color: transparent;
         border-color: transparent;
         color: white;
