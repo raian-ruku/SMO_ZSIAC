@@ -21,7 +21,7 @@
         </div>
 <div class="form">
    
-        <form action="">
+        <form action="" onsubmit="return submitForm(this);">
            
             <h1>Register Now</h1>
             <span id="field">[input fields marked with '*' are mandatory]</span>
@@ -39,7 +39,7 @@
             </select>
             <input type="text" name="trxid" placeholder="Enter Transaction ID*" id="trxid" required><br>
             <input type="text" name="reference" placeholder="Reference Code (if you have one)"><br>
-            <button type="submit" id="reg" onclick="submitForm">Register</button>
+            <button type="submit" id="reg">Register</button>
         </form>
         
         
