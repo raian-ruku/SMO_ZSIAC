@@ -52,6 +52,9 @@ body{
         font-size: 20px;
         font-family: 'Advent Pro';
     }
+    #pword{
+        font-size: 17px;
+    }
     .form h1{
         text-align: center;
         font-family: 'Advent Pro';
