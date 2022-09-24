@@ -1,4 +1,5 @@
 <html>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
     <link rel="stylesheet" href="/css/home.css">
 <body>
@@ -38,11 +39,27 @@
             </select>
             <input type="text" name="trxid" placeholder="Enter Transaction ID*" id="trxid" required><br>
             <input type="text" name="reference" placeholder="Reference Code (if you have one)"><br>
-            <button type="submit" id="reg" onclick="aler">Register</button>
+            <button type="submit" id="reg" onclick="submitForm">Register</button>
         </form>
         
         
-    
+        <script>
+            function submitForm(form) {
+                swal({
+                    title: "Are you sure?",
+                    text: "This form will be submitted",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                .then(function (isOkay) {
+                    if (isOkay) {
+                        form.submit();
+                    }
+                });
+                return false;
+            }
+        </script>
 
 
 </div>
