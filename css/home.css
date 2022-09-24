@@ -45,6 +45,9 @@ body{
         border-radius: 7px;
         font-size: 20px;
     }
+    .form h1{
+        text-align: center;
+    }
 #reg{
     margin-top: 10px;
 background-color: green;
