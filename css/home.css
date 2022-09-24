@@ -66,3 +66,12 @@ border-radius: 7px;
 font-size: 25px;
 }
 
+select{
+    margin-top: 15px;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Advent Pro';
+        border: 2px solid rgb(36, 35, 35);
+}
