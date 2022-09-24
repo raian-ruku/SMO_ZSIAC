@@ -23,20 +23,21 @@
         <form action="">
            
             <h1>Register Now</h1>
-            <input type="text" name="fullname" placeholder="Full Name" required> <br>
-            <input type="email" name="email" placeholder="Email Address" required> <br>
-            <input type="text" name="contact" placeholder="Contact No." required><br>
-            <input type="text" name="class" placeholder="Class" required id="class">
-            <input type="text" name="category" placeholder="Select Category" id="category" required><br>
-            <input type="text" name="reference" placeholder="Reference Code"><br>
+            <span id="field">[input fields marked with '*' are mandatory]</span>
+            <input type="text" name="fullname" placeholder="Full Name*" required> <br>
+            <input type="email" name="email" placeholder="Email Address*" required> <br>
+            <input type="text" name="contact" placeholder="Contact No.*" required><br>
+            <input type="text" name="class" placeholder="Class*" required id="class">
+            <input type="text" name="category" placeholder="Select Category*" id="category" required><br>
+            <input type="password" name="password" id="pword" placeholder="Create A Password to Login After Payment*" required><br>
             <!--<input type="text" name="payment_method" placeholder="Select Payment Method" required><br>-->
-            <select id="sel" name="payment_method" required>
-                <option value="" hidden>Select Payment Method</option>
+            <select id="sel" name="payment_method*" required>
+                <option value="" hidden>Payment Method</option>
                 <option>bKash</option>
                 <option>Nagad</option>
             </select>
-            <input type="text" name="trxid" placeholder="Enter Transaction ID" id="trxid" required><br>
-            <input type="password" name="password" id="pword" placeholder="Create A Password to Login After Payment" required><br>
+            <input type="text" name="trxid" placeholder="Enter Transaction ID*" id="trxid" required><br>
+            <input type="text" name="reference" placeholder="Reference Code (if you have one)"><br>
             <button type="submit" id="reg">Register</button>
         </form>
         

@@ -3,6 +3,7 @@ body{
     background-image: url(/images/edited7-1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    font-family: 'Advent Pro';
     }
     .linkbar{
         margin-left: 1000px;
@@ -24,6 +25,8 @@ body{
         background-color: rgba(255, 255, 255, .5);
         color: white;
         border-radius: 5px;
+        animation: forwards;
+        animation-delay: .4s;
     }
 
     #login{
@@ -37,7 +40,7 @@ body{
         background-color: white;
         margin-left: 1000px;
         margin-top: 100px;  
-        margin-right: 300px;
+        margin-right: 540px;
         padding: 30px;
         border-radius: 20px;
        align-items: center;
@@ -52,7 +55,10 @@ body{
         font-size: 20px;
         font-family: 'Advent Pro';
     }
-   
+   #field{
+    font-size: 17px;
+    color: red;
+   }
     .form h1{
         text-align: center;
         font-family: 'Advent Pro';
@@ -79,12 +85,12 @@ select{
         width: 300px;
         height: 40px;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Advent Pro';
         border: 2px solid rgb(36, 35, 35);
 }
 #trxid{
-    width: 200px;
+    width: 175px;
 }
 #category{
     width: 200px;
@@ -93,5 +99,5 @@ select{
     width: 95px;
 }
 #sel{
-    width: 95px;
+    width: 120px;
 }
