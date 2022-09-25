@@ -45,11 +45,14 @@ body{
 .contact{
    margin-top: 200px;
     text-align: center;
-    color: white;
 }
 .contact h3{
     font-size: 20px;
+    color: gray;
+    padding: none;
 }
 .contact h2{
     font-size: 30px;
+    color: aquamarine;
+    padding: none;
 }
