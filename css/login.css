@@ -53,6 +53,8 @@ body{
         width: 300px;
         margin-top: 50px;
         margin-left: 20px;
+        padding: none;
+        margin: none;
     }
     
     #smo{
