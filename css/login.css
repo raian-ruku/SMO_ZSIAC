@@ -1,0 +1,36 @@
+
+body{
+    background-color: white;
+    background-image: url(/images/edited7-1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Advent Pro';
+    }
+    .linkbar{
+        margin-left: 1000px;
+        margin-top: 100px;
+        size: 50px;
+    }
+    .linkbar button{
+        font-family: 'Advent Pro';
+       
+    }
+    
+    .linkbar button{
+        background-color: transparent;
+        border-color: transparent;
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .linkbar button:hover{
+        background-color: rgba(255, 255, 255, .5);
+        color: white;
+        border-radius: 5px;
+        transition: all 0.5s ease;
+    }
+
+    #login{
+        background-color: green;
+        border-radius: 10px;
+    }
