@@ -29,27 +29,55 @@
             <input type="email" name="email" placeholder="Email Address*" required> <br>
             <input type="text" name="contact" placeholder="Contact No.*" required><br>
             <input type="text" name="class" placeholder="Class*" required id="class">
-            <input type="text" name="category" placeholder="Select Category*" id="category" required><br>
+           <!-- <input type="text" name="category" placeholder="Select Category*" id="category" required><br>-->
             <input type="password" name="password" id="pword" placeholder="Create A Password to Login After Payment*" required><br>
             <!--<input type="text" name="payment_method" placeholder="Select Payment Method" required><br>-->
-            <select id="sel" name="payment_method*" required>
+           <!-- <select id="sel" name="payment_method*" required>
                 <option value="" hidden>Payment Method</option>
                 <option>bKash</option>
                 <option>Nagad</option>
-            </select>
+            </select>-->
+            <select id="cat1" onchange="giveSelection(this.value)">
+                <option value="" hidden>Select Category</option>
+                <option value="cata">Category A</option>
+                <option value="catb">Category B</option>
+                <option value="catc">Category C</option>
+              </select>
+              <select id="cat2">
+                <option value="" hidden>Select Class</option>
+                <option data-option="cata">Class 6</option>
+                <option data-option="cata">Class 7</option>
+                <option data-option="cata">Class 8</option>
+                <option data-option="catb">Class 9</option>
+                <option data-option="catb">Class 10</option>
+                <option data-option="catb">O-Level</option>
+                <option data-option="catc">11th</option>
+                <option data-option="catc">12th</option>
+                <option data-option="catc">A-Level</option>
+              </select>
             <input type="text" name="trxid" placeholder="Enter Transaction ID*" id="trxid" required><br>
             <input type="text" name="reference" placeholder="Reference Code (if you have one)"><br>
             <button type="submit" id="reg">Register</button>
         </form>
         
         
+
         <script>
-            document.getElementById("reg").addEventListener("click", function(){
-                Swal.fire(
-'submitted'
-                );
-            }
-        </script>
+            var cata = document.querySelector('#cata');
+var catb = document.querySelector('#catb');
+var catc = document.querySelector('#catc');
+var options2 = catb.querySelectorAll('option');
+
+function giveSelection(selValue) {
+  catb.innerHTML = '';
+  for(var i = 0; i < options2.length; i++) {
+    if(options2[i].dataset.option === selValue) {
+      catb.appendChild(options2[i]);
+    }
+  }
+}
+
+giveSelection(cata.value);</script>
 
 
 </div>
