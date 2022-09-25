@@ -47,12 +47,11 @@ body{
     text-align: center;
 }
 .contact h3{
-    font-size: 20px;
-    color: gray;
+    font-size: 40px;
+    color: rgb(207, 207, 207);
     padding: none;
 }
 .contact h2{
-    font-size: 30px;
+    font-size: 50px;
     color: aquamarine;
-    padding: none;
 }
