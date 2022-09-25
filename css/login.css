@@ -41,4 +41,5 @@ body{
         width: 700px;
         align-items: center;
         background-color: white;
+        box-shadow: rgba(255, 255, 255, .5);
     }
