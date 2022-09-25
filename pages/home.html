@@ -29,7 +29,6 @@
             <input type="email" name="email" placeholder="Email Address*" required> <br>
             <input type="text" name="contact" placeholder="Contact No.*" required><br>
             <input type="password" name="password" id="pword" placeholder="Create A Password to Login After Payment*" required><br>
-            <!--<input type="text" name="payment_method" placeholder="Select Payment Method" required><br>-->
           
             <select id="cat1" onchange="giveSelection(this.value)">
                 <option value="" hidden>Select Category</option>
@@ -38,8 +37,10 @@
                 <option value="catc">Category C</option>
 
               </select>
-              <select id="cat2">
-                <option value="" hidden>Select Class</option>
+              <select id="cat2" name="category">
+                <option data-option="cata" hidden>Select Class</option>
+                <option data-option="catb" hidden>Select Class</option>
+                <option data-option="catc" hidden>Select Class</option>
                 <option data-option="cata">Class 6</option>
                 <option data-option="cata">Class 7</option>
                 <option data-option="cata">Class 8</option>
