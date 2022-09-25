@@ -41,5 +41,9 @@ body{
         width: 700px;
         align-items: center;
         background-color: white;
-        box-shadow: rgba(255, 255, 255, .5);
+        box-shadow: rgba(255, 255, 255, 1);
+    }
+    .loginpanel img{
+        height: 400px;
+        width: 300px;
     }
