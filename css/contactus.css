@@ -42,3 +42,14 @@ body{
         color: white;
         font-size: 40px;
     }
+.contact{
+   margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+.contact h3{
+    font-size: 20px;
+}
+.contact h2{
+    font-size: 30px;
+}
