@@ -46,7 +46,26 @@ body{
     }
   h2{
       position: absolute;
-      left: 500px;
+      left: 1020px;
+      top: 370px;
     }
+    form{
+        position: absolute;
+        left: 1000px;
+        top: 450px;
+      }
+      form input{
+        height: 40px;
+        width: 220px;
+        border-radius: 15px;
+        margin-top: 15px;
+      }
+      form button{
+        margin-top: 10px;
+        width: 220px;
+        height: 30px;
+        text-align: center;
+        border-radius: 5px;
+      }
     
     
