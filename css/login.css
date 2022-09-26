@@ -67,5 +67,8 @@ body{
         text-align: center;
         border-radius: 5px;
       }
-    
+    form i{
+        height: 20px;
+        width: 20px;
+    }
     
