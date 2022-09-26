@@ -53,23 +53,32 @@ body{
         position: absolute;
         left: 1000px;
         top: 450px;
+        
       }
       form input{
         height: 40px;
         width: 230px;
         border-radius: 15px;
         margin-top: 15px;
+        font-family: 'Advent Pro';
       }
       form button{
-        margin-top: 10px;
-        width: 220px;
-        height: 30px;
+        margin-top: 40px;
+        width: 230px;
+        height: 40px;
         text-align: center;
         border-radius: 5px;
+        font-family: 'Advent Pro';
       }
-    form i{
+    #id{
         position: absolute;
         top: 28px;
+        right: 10px;
+     
+    }
+    #pas{
+        position: absolute;
+        top: 82px;
         right: 10px;
      
     }
