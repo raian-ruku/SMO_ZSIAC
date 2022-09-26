@@ -84,7 +84,7 @@ body{
 }
 #call i{
     position: absolute;
-    top: 700px;
+    top: 800px;
     left: 400px;
     height: 50px;
     width: 50px;
@@ -92,6 +92,6 @@ body{
 #call p{
     margin-left: 20px;
     position: absolute;
-    top: 680px;
+    top: 780px;
     left: 440px;
 }
