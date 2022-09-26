@@ -69,6 +69,9 @@ body{
         text-align: center;
         border-radius: 5px;
         font-family: 'Advent Pro';
+        background-color: cornflowerblue;
+        color: white;
+        font-size: 25px;
       }
     #id{
         position: absolute;
@@ -86,5 +89,12 @@ body{
         height: 30px;
         width: 230px;
         left: 1000px;
+        top: 300px;
+    }
+    #zsiac{
+        position: absolute;
+        height: 500px;
+        width: 300px;
+        left: 630px;
         top: 300px;
     }
