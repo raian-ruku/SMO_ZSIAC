@@ -59,7 +59,7 @@
             </select>
             <input type="text" name="trxid" placeholder="Enter Transaction ID*" id="trxid" required><br>
             <input type="text" name="reference" placeholder="Reference Code (if you have one)"><br>
-            <button type="submit" id="reg">Register</button>
+            <button type="submit" id="reg" onclick="swal()">Register</button>
         </form>
         
         
@@ -85,4 +85,16 @@ giveSelection(cata.value);</script>
 
 </div>
 </body>
+<script>
+  event.preventDefault();
+  function swal(){
+  Swal.fire({
+      icon: 'success',
+      title: 'Account Created!',
+      text: 'Now wait for your username to be sent to your email!',
+      footer: 'already received username? <a href="/pages/login.html"> login</a> here',
+     
+  })
+}
+ </script>
 </html>
