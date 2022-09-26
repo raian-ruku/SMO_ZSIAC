@@ -95,3 +95,16 @@ body{
     top: 780px;
     left: 440px;
 }
+#mail i{
+    position: absolute;
+    top: 900px;
+    left: 400px;
+    height: 50px;
+    width: 50px;
+}
+#mail p{
+    margin-left: 20px;
+    position: absolute;
+    top: 880px;
+    left: 440px;
+}
