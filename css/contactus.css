@@ -59,15 +59,21 @@ body{
     margin: 0;
     padding: 0;
 }
+.icons{
+    color: white;
+}
 .icons i{
     position: absolute;
-    top: 600px;
-    left: 200px;
+    top: 700px;
+    left: 400px;
     height: 50px;
     width: 50px;
 }
 .icons p{
     margin-left: 20px;
+    position: absolute;
+    top: 680px;
+    left: 440px;
 }
 #logobutton{
     position: absolute;
