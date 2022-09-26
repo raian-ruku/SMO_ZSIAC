@@ -41,7 +41,7 @@ body{
         align-items: center;
         background-color: white;
         box-shadow: rgba(255, 255, 255, 1);
-        border-radius: 3px;
+        border-radius: 7px;
     }
   h2{
       position: absolute;
