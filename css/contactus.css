@@ -62,14 +62,14 @@ body{
 .icons{
     color: white;
 }
-.icons i{
+#loc i{
     position: absolute;
     top: 700px;
     left: 400px;
     height: 50px;
     width: 50px;
 }
-.icons p{
+#loc p{
     margin-left: 20px;
     position: absolute;
     top: 680px;
@@ -81,4 +81,17 @@ body{
     top: 100px;
     height: 50px;
     width: 100px;
+}
+#call i{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    height: 50px;
+    width: 50px;
+}
+#call p{
+    margin-left: 20px;
+    position: absolute;
+    top: 680px;
+    left: 440px;
 }
