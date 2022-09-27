@@ -49,5 +49,13 @@ body{
         left: 200px;
         top: 200px;
     }
+    .longtext h2{
+        padding: none;
+        margin: none;
+    }
+    .longtext h1{
+        padding: none;
+        margin: none;
+    }
 
   
