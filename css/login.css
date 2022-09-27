@@ -40,7 +40,7 @@ body{
         width: 700px;
         align-items: center;
         background-color: white;
-        box-shadow: rgba(255, 255, 255, 1);
+        box-shadow: rgba(0, 0, 0, 1);
         border-radius: 7px;
     }
   h2{
