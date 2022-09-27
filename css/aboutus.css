@@ -41,7 +41,7 @@ body{
         height: 50px;
         width: 150px;
     }
-    h1{
+    #about{
         position: absolute;
         font-family: 'Montserrat';
         color: white;
@@ -50,22 +50,4 @@ body{
         top: 200px;
     }
 
-    .longtext{
-        position: absolute;
-        color: white;
-        top: 600px;
-        left: 800px;
-        width: 1100px;
-    }
-
-    .longtext   h2{
-        position: absolute;
-        margin: none;
-        padding: none;
-    }
-    .longtext   h1{
-        position: absolute;
-        margin: none;
-        padding: none;
-        
-    }
+  
