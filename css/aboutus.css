@@ -56,6 +56,8 @@ body{
     .longtext h1{
         padding: none;
         margin: none;
+        position: absolute;
+        top: 160px;
     }
 
   
