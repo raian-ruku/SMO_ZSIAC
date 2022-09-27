@@ -41,3 +41,7 @@ body{
         height: 50px;
         width: 150px;
     }
+    h1{
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+    }
