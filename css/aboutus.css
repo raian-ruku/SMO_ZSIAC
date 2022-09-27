@@ -43,5 +43,17 @@ body{
     }
     h1{
         position: absolute;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat';
+        color: white;
+        font: bold;
+        left: 200px;
+        top: 200px;
+    }
+
+    .longtext{
+        position: absolute;
+        color: white;
+        top: 600px;
+        left: 800px;
+        width: 100%;
     }
