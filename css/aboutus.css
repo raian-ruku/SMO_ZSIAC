@@ -55,5 +55,18 @@ body{
         color: white;
         top: 600px;
         left: 800px;
-        width: 100%;
+        width: 1100px;
+    }
+
+    .longtext   h2{
+        position: absolute;
+        margin: none;
+        padding: none;
+    }
+    .longtext   h1{
+        position: absolute;
+        margin: none;
+        padding: none;
+        right: 200px;
+       top: 200px;
     }
