@@ -74,5 +74,8 @@ body{
         width: 800px;
         font-size: 25px;
     }
+    .longtext q{
+        font-size: 35px;
+    }
 
   
